@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.pt
+calibration_screenshots/
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
