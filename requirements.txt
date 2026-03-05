@@ -6,7 +6,7 @@ torchvision==0.17.0+cpu
 # Core dependencies
 opencv-python-headless==4.9.0.80
 ultralytics==8.3.40
-numpy>=1.24.0
+numpy>=1.24.0,<2.0.0
 
 # YouTube stream capture
 yt-dlp>=2024.1.0
