@@ -1,6 +1,11 @@
+# PyTorch CPU-only (mucho mas liviano, ~200MB vs ~2GB con CUDA)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+
 # Core dependencies
 opencv-python-headless==4.9.0.80
-ultralytics>=8.3.0
+ultralytics==8.3.40
 numpy>=1.24.0
 
 # YouTube stream capture

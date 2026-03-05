@@ -23,5 +23,8 @@ RUN python -c "from ultralytics import YOLO; YOLO('yolov8n.pt')"
 # Copiar código fuente
 COPY . .
 
+# Variable para que Python no bufferee la salida (ver logs en tiempo real)
+ENV PYTHONUNBUFFERED=1
+
 # Ejecutar
 CMD ["python", "main.py"]
